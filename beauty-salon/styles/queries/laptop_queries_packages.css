@@ -1,0 +1,91 @@
+@media only screen and (min-width: 1024px) {
+  * {
+    line-height: 1.2;
+  }
+
+  h2,
+  h4 {
+    font-size: 3.6rem;
+  }
+
+  a {
+    font-size: 1.6rem;
+  }
+
+  .logo-img {
+    padding: 3rem 5rem;
+  }
+
+  .nav-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .link {
+    margin: 2rem;
+  }
+
+  #book-button {
+    margin: 0 5rem 0 2rem;
+  }
+
+  .bridal-package {
+    position: relative;
+  }
+
+  #spawoman-img {
+    width: 50%;
+    float: left;
+    padding-right: 3rem;
+  }
+
+  #brides-img {
+    margin: 2rem auto;
+  }
+
+  .package-content {
+    text-align: left;
+    padding: 3rem 5rem;
+    margin: 2rem auto;
+  }
+
+  .bridal-package-content {
+    padding-bottom: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  label {
+    padding: 2.4rem;
+  }
+
+  .container {
+    padding: 2.4rem 10rem;
+  }
+
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .button-row {
+    display: grid;
+    justify-content: center;
+  }
+}

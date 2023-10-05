@@ -1,0 +1,54 @@
+@media only screen and (min-width: 1024px) {
+  * {
+    line-height: 1.2;
+  }
+
+  h2,
+  h4 {
+    font-size: 3.6rem;
+  }
+
+  a {
+    font-size: 1.6rem;
+  }
+
+  .logo-img {
+    padding: 3rem 5rem;
+  }
+
+  .nav-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .link {
+    margin: 2rem;
+  }
+
+  #book-button {
+    margin: 0 5rem 0 2rem;
+  }
+
+  .team-img {
+    width: 400px;
+  }
+
+  .team-header {
+    padding: 3rem 7rem 7rem;
+  }
+
+  .team-name {
+    padding: 3rem;
+  }
+
+  .team-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .team-member {
+    padding: 0 5rem 5rem;
+    justify-content: center;
+    width: 50%;
+  }
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book your appointment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600&family=Quicksand:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./IMGS/icons8-woman-16-2.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./styles/base_book.css" />
+    <link rel="stylesheet" href="./styles/queries/tablet_queries_book.css">
+    <link rel="stylesheet" href="./styles/queries/laptop_queries_book.css">
+  </head>
+  <body>
+    <!--Header-->
+    <div class="header-container">
+      <header class="header">
+        <img class="logo-img" src="./IMGS/logo.jpg" alt="Logo" width="200px" />
+      </header>
+      <!--Nav-->
+      <nav>
+        <ul class="nav-wrapper">
+          <li class="link"><a href="index.html">HOME</a></li>
+          <li class="link"><a href="packages.html">BEAUTY PACKAGES</a></li>
+          <li class="link"><a href="about.html">ABOUT</a></li>
+        </ul>
+      </nav>
+      <div class="social-media-book">
+        <a href="https://www.instagram.com"
+          ><img
+            src="./IMGS/instalogo.png"
+            alt="Instagram logo"
+            width="30px"
+            class="social-img"
+        /></a>
+        <a href="https://www.facebook.com"
+          ><img
+            src="./IMGS/fblogo.png"
+            alt="FB logo"
+            width="30px"
+            class="social-img"
+        /></a>
+        <form action="book.html">
+          <input type="submit" value="Book" id="book-button" />
+        </form>
+      </div>
+    </div>
+
+    <!--Main-->
+    <main>
+      <div class="booking-container">
+        <h2 class="booking-header">
+          Contact us to book your skin investment today
+        </h2>
+        <div class="container">
+          <form>
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">First Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="firstname" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">Last Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="lname" name="lastname" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="email">Email</label>
+              </div>
+              <div class="col-75">
+                <input type="email" name="email" id="email" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="tel">Telephone number</label>
+              </div>
+              <div class="col-75">
+                <input type="tel" name="tel" id="tel" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="service">Service</label>
+              </div>
+              <div class="col-75">
+                <select name="services" id="service">
+                  <option value="select" selected>Select</option>
+                  <option value="facials">Facials</option>
+                  <option value="lashes">Lashes</option>
+                  <option value="brows">Brows</option>
+                  <option value="injections">Injections</option>
+                </select>
+              </div>
+            </div>
+            <div class="button-row">
+              <input type="submit" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+      <h4 class="footer-header">newsletter</h4>
+      <p class="footer-content">
+        Sign up for exclusive offers, new services, products, and more!
+      </p>
+      <p class="footer-content">
+        In addition, save $25 off your first appointment
+      </p>
+      <form class="footer-form">
+        <div class="form-container">
+          <input
+            id="footer-email"
+            type="email"
+            value="Email address"
+            onfocus="this.value=''"
+          />
+          <input id="footer-button" type="button" value="add me in" />
+        </div>
+      </form>
+      <hr />
+      <p class="copyright">
+        Copyright <strong>&copy;</strong> 2022. Developed by Yuliia Kharytoniuk.
+      </p>
+    </footer>
+  </body>
+</html>

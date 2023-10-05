@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skincare Packages</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600&family=Quicksand:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./IMGS/icons8-woman-16-2.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./styles/base_packages.css" />
+    <link rel="stylesheet" href="./styles/queries/tablet_queries_packages.css">
+    <link rel="stylesheet" href="./styles/queries/laptop_queries_packages.css">
+  </head>
+  <body>
+    <!--Header-->
+    <div class="header-container">
+      <header class="header">
+        <img class="logo-img" src="./IMGS/logo.jpg" alt="Logo" width="200px" />
+      </header>
+      <!--Nav-->
+      <nav>
+        <ul class="nav-wrapper">
+          <li class="link"><a href="index.html">HOME</a></li>
+          <li class="link"><a href="packages.html">BEAUTY PACKAGES</a></li>
+          <li class="link"><a href="about.html">ABOUT</a></li>
+        </ul>
+      </nav>
+      <div class="social-media-book">
+        <a href="https://www.instagram.com"
+          ><img
+            src="./IMGS/instalogo.png"
+            alt="Instagram logo"
+            width="30px"
+            class="social-img"
+        /></a>
+        <a href="https://www.facebook.com"
+          ><img
+            src="./IMGS/fblogo.png"
+            alt="FB logo"
+            width="30px"
+            class="social-img"
+        /></a>
+        <form action="book.html">
+          <input type="submit" value="Book" id="book-button" />
+        </form>
+      </div>
+    </div>
+
+    <!--Main-->
+    <main>
+      <h2 class="package-header">Your skin is your best accessory</h2>
+      <h3 class="package-hint">
+        Monthly memberships are the way to guarantee your ongoing glow and skin
+        health.
+      </h3>
+      <div
+        class="package-content"
+        style="background-color: rgba(255, 255, 255, 0.5)"
+      >
+        <img
+          src="./IMGS/woman spa.jpeg"
+          alt="Woman in spa"
+          id="spawoman-img"
+        />
+        <span>
+          We have taken the guess work out of planning your skincare journey.
+          With our carefully curated 26 treatments(plus 3 skincare products
+          tailored to your skin needs), your skin will look and feel healthy.
+        </span>
+        <span>
+          Each month you will visit the clinic once or twice to help achieve
+          your skincare goals.
+        </span>
+        <div class="clear"></div>
+        <span>
+          The monthly membership cost is $450+hst. We can also offer a one time
+          investment of $4900+hst(total value of all services separately
+          $5900+hst). Contact us to learn what is offered in the package and to
+          start your journey today.
+        </span>
+      </div>
+
+      <div class="bridal-package">
+        <img src="./IMGS/brides.jpeg" alt="Brides" id="brides-img" />
+        <div class="bridal-package-content">
+          <h2 class="package-header">
+            Bridal <span>&#38;</span> Special Event Packages
+          </h2>
+          <span>
+            Do want to feel radiant and confident on the big day? Whether it is
+            your big day, or someone’s big day, all are welcome to enjoy these
+            thoughtfully organized skin focused packages which are fully
+            customizable to your skin needs.
+          </span>
+          <div class="clear"></div>
+          <span>
+            We offer customized skincare packages starting from 12 months of
+            planning to 1 month prior to your big day.
+          </span>
+          <div class="clear"></div>
+          <span>Skin Investment starts at $1300+hst</span>
+        </div>
+      </div>
+
+      <div class="message-container">
+        <h2 class="message-header">
+          Contact us to book your skin investment today
+        </h2>
+        <div class="container">
+          <form>
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">First Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="firstname" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">Last Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="lname" name="lastname" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="email">Email</label>
+              </div>
+              <div class="col-75">
+                <input type="email" name="email" id="email" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="message">Message</label>
+              </div>
+              <div class="col-75">
+                <textarea id="message" name="message"></textarea>
+              </div>
+            </div>
+            <div class="button-row">
+              <input type="submit" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+      <h4 class="footer-header">newsletter</h4>
+      <p class="footer-content">
+        Sign up for exclusive offers, new services, products, and more!
+      </p>
+      <p class="footer-content">
+        In addition, save $25 off your first appointment
+      </p>
+      <form class="footer-form">
+        <div class="form-container">
+          <input
+            id="footer-email"
+            type="email"
+            value="Email address"
+            onfocus="this.value=''"
+          />
+          <input id="footer-button" type="button" value="add me in" />
+        </div>
+      </form>
+      <hr />
+      <p class="copyright">
+        Copyright <strong>&copy;</strong> 2022. Developed by Yuliia Kharytoniuk.
+      </p>
+    </footer>
+  </body>
+</html>
