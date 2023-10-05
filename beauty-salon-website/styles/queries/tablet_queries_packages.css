@@ -1,0 +1,51 @@
+@media only screen and (min-width: 820px) {
+  * {
+    line-height: 1.2;
+  }
+
+  h2,
+  h4 {
+    font-size: 3.6rem;
+  }
+
+  a {
+    font-size: 1.6rem;
+  }
+
+  .logo-img {
+    padding: 3rem 5rem;
+  }
+
+  .bridal-package {
+    position: relative;
+  }
+
+  #spawoman-img {
+    width: 50%;
+    float: left;
+    padding-right: 3rem;
+  }
+
+  #brides-img {
+    margin: 2rem auto;
+  }
+
+  .package-content {
+    text-align: left;
+    padding: 3rem 5rem;
+    margin: 2rem auto;
+  }
+
+  .bridal-package-content {
+    padding: 1.5rem 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .button-row {
+    display: grid;
+    justify-content: center;
+  }
+}
